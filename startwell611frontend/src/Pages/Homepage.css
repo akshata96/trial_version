@@ -1,0 +1,56 @@
+.site-layout-content {
+    min-height: 450px;
+    padding: 24px;
+    background: #fff;
+  }
+  .components-layout-demo-top .logo {
+    float: left;
+    width: 1200px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  .ant-avatar {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 64px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    background:transparent;
+    width: 64px;
+    height: 64px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+.ant-btn-primary {
+  color: #ffffff;
+  background: transparent;
+  border-color: #f8f8f9;
+}
+.ant-btn-primary:hover {
+  color: #0c0c0c;
+  background: White;
+  border-color: #f8f8f9;
+  
+}
+#im1
+{
+  background-image: "src\Assets\wound.jpg";
+}
