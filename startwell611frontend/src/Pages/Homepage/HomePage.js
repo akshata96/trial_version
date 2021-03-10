@@ -5,6 +5,7 @@ import { UserOutlined, PoweroffOutlined } from '@ant-design/icons';
 import { Layout, Menu, Breadcrumb, Avatar, Card, Col, Row, Image} from 'antd';
 import './Homepage.css';
 import image from '../Assets/wound.jpg'
+import logo from '../Assets/logo.PNG'
 
 const { Header, Content, Footer } = Layout;
 const{Title}=Typography;
@@ -27,6 +28,10 @@ return(
         <Menu.Item key="3" style={{float:"right"}}>Contact Us</Menu.Item>
         <Menu.Item key="4" style={{float:"right"}}>Self Help</Menu.Item>
         <Menu.Item key="5" style={{float:"right"}}>Home</Menu.Item>
+        <img
+          width={50}
+          src={logo}
+          />
         
       </Menu>
     </Header>
