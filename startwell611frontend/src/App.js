@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router,Switch, Route} from 'react-router-dom'
 
 import Homepage  from '../src/Pages/Homepage/HomePage'
 import login  from '../src/Pages/Login/login'
@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <Switch>
       <header className="App-header">
       <Route 
         exact 
@@ -20,7 +21,16 @@ function App() {
          <Homepage />
         )}
         />
+        <Route 
+        exact 
+        path = {"/login"} 
+        render = {props =>(
+         <login />
+        )}
+        />
+
       </header>
+      </Switch>
       </Router>
     </div>
   );

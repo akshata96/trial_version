@@ -3,12 +3,21 @@
     padding: 24px;
     background: #fff;
   }
+  
   .components-layout-demo-top .logo {
     float: left;
     width: 1200px;
     height: 31px;
     margin: 16px 24px 16px 0;
     background: rgba(255, 255, 255, 0.3);
+  }
+  .title_txt
+  {
+    color: white;
+    font-size:22px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    float:center;
   }
   .ant-row-rtl #components-layout-demo-top .logo {
     float: right;
