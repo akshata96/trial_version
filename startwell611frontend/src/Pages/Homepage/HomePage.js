@@ -3,14 +3,14 @@ import 'antd/dist/antd.css';
 import { Button, Typography} from 'antd';
 import { UserOutlined, PoweroffOutlined } from '@ant-design/icons';
 import { Layout, Menu, Breadcrumb, Avatar, Card, Col, Row, Image} from 'antd';
-import './Homepage.css';
-import image from '../Assets/wound.jpg'
-import logo from '../Assets/logo.PNG'
+import './HomePage.css';
+import image from '../../Assets/wound.jpg'
+import logo from '../../Assets/logo.PNG'
 
 const { Header, Content, Footer } = Layout;
 const{Title}=Typography;
 
-function Homepage()
+function HomePage()
 {
     const [visible, setVisible] = useState(false);
 return(
@@ -82,4 +82,4 @@ return(
   
 )
 }
-export default Homepage
+export default HomePage
