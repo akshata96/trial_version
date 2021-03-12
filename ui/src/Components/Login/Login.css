@@ -1,0 +1,53 @@
+.wall{
+    min-height:100vh;
+}
+.login{
+    width: 210px;
+    min-height: 240px;
+    background-color: rgb(243, 243, 243,.6);
+    padding:30px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -100px; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 4px #d9d9d969;
+}
+
+input{
+    border:none;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-bottom:20px;
+    width:200px;
+}
+
+.actions{
+    margin-top: 12px;
+}
+.actions button{
+
+    margin-left: 25px;
+    border-radius: 20px;
+    border: transparent;
+    background: red;
+    color: white;
+    padding: 6px 15px;
+}
+
+.text{
+    font-size:10px;
+    margin-top:15px;
+}
+
+.center-text{
+    align-items: center;
+    text-align: center;
+    color:red;
+}
+
+.error{
+    color:red;
+    font-size:14px
+}

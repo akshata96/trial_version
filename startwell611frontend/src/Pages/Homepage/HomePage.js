@@ -23,7 +23,7 @@ return(
       <div className="logo" />
       
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1" style={{float:"right"}}><Avatar size={64} style={{float:'right'}} icon={<UserOutlined />} /></Menu.Item>  
+        <Menu.Item key="1" style={{float:"right"}}><Avatar size={64} style={{float:'right'}} icon={<UserOutlined/>} /></Menu.Item>  
         <Menu.Item key="2" style={{float:"right"}}>About</Menu.Item>
         <Menu.Item key="3" style={{float:"right"}}>Contact Us</Menu.Item>
         <Menu.Item key="4" style={{float:"right"}}>Self Help</Menu.Item>
