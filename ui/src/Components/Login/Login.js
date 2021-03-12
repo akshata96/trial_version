@@ -56,7 +56,7 @@ class Login extends Component {
         fetch('http://localhost:3200/user/login', requestOptions)
             .then(response => response.json())
             .then((data) => {
-                if(data = []){
+                if(data === []){
                     
 this.handleWrongCredentials();
                 } else {
