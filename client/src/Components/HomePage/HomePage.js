@@ -5,7 +5,7 @@ import { UserOutlined, PoweroffOutlined } from '@ant-design/icons';
 import { Layout, Menu, Breadcrumb, Avatar, Card, Col, Row, Image} from 'antd';
 import './HomePage.css';
 import image from '../../Assets/wound.jpg'
-import logo from '../../Assets/logo.PNG'
+
 
 const { Header, Content, Footer } = Layout;
 const{Title}=Typography;
@@ -30,7 +30,7 @@ return(
         <Menu.Item key="5" style={{float:"right"}}>Home</Menu.Item>
         <img
           width={50}
-          src={logo}
+          
           />
         
       </Menu>
