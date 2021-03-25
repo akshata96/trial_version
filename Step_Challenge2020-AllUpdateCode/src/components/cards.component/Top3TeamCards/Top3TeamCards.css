@@ -1,0 +1,79 @@
+.Cards {
+    padding: 30px;
+    background: #f8f7ff;
+    min-height: 350 px;
+    max-height: 450px;
+    justify-content: center ;
+    
+  }
+  .CardBody {
+    padding: 30px;
+    justify-content: center ;
+    text-align: center;
+    background: #f8f7ff;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  .cardBodyStyle {
+    height: 45px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: small;
+    max-height: 50px;
+    justify-content: center ;
+    
+    
+  }
+  
+  h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+  }
+
+  h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #595959;
+    
+  }
+
+  h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+  }
+  
+  p1
+  {
+    text-align: center;
+    /* text-overflow: ellipsis; */
+    justify-content: center ;
+    align-items: center;
+    font-size: medium;
+    font-weight: bolder;
+    color: #595959;
+    
+    ;
+    
+  }
+  p2
+  {
+    text-align: center;
+    /* text-overflow: ellipsis; */
+    justify-content: center ;
+    align-items: center;
+    font-size: small;
+    color: #595959;
+    
+  }
+  

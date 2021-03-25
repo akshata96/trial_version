@@ -1,0 +1,40 @@
+
+  
+  
+ .challenge-type {
+   padding-left: 2rem;
+   margin-left: 2rem;
+ }
+
+ .card_button {
+   
+   display: inline-flex;
+ }
+
+ .card-button- {
+   background-color: black;
+   border-color: #1074E7;
+   border-radius: 0.5rem;
+
+ }
+ .box-left{
+  display: "flex";
+  flex-direction: row;
+  justify-content: "flex-end";
+ }
+
+ .horizantal{
+   display: inline;
+   
+ }
+
+ .ant-btn .ant-btn-card-button-{
+  border-color: #1074E7;
+  background-color: black;
+}
+
+.ant-tooltip-inner {
+  color: yellow;
+  background-color: green;
+  width: 200px;
+}

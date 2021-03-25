@@ -1,0 +1,66 @@
+.Profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color:blue;
+    }
+  
+.Profile_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    min-width: 50%;
+}
+
+.profile_contents{
+    color:blue;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+   
+}
+h4{
+    color:blue;
+    font-weight: bolder;
+}
+.Name {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: blue;
+    text-overflow: ellipsis;
+    
+  }
+
+.first {
+  
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+
+}
+.last{
+    
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+}
+
+.addrees2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content:space-between;
+    font-weight: bold;
+    color: blue;
+    text-overflow: ellipsis;
+}

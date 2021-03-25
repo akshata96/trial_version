@@ -1,0 +1,42 @@
+.Carousels{
+  position: relative;
+  margin-top:20px;
+  width: 98%;
+}
+.card{
+  position: relative;
+  margin-top:40px;
+  margin-left: 30px;
+  
+  background: #fff;
+}
+.title{
+  size: 46;
+}
+.ant-carousel .slick-dots li button {
+  background: #f0f0f0;
+  opacity: 0.4;
+}
+.ant-carousel .slick-dots li.slick-active button {
+  opacity: 0.8  ;
+  background: #000;
+}
+
+.ant-layout-sider {
+  position: relative;
+  display: inline-flexbox;
+  padding: 30px;
+  background: #fff;
+  color: #000;
+}
+[data-theme="white"] .ant-layout-sider {
+  background: #ffffff;
+}
+.ant-layout-content {
+  padding: 30px;
+  background: #fff;
+  color: #000000;
+}
+[data-theme="dark"] .ant-layout-content {
+  background: #000000;
+}

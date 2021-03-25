@@ -1,0 +1,24 @@
+.Cards {
+  position: relative;
+  padding: 30px;
+  background: #ffffff;
+}
+
+.title{
+  size: "34" 
+}
+.ant-layout-sider {
+align-content: left;
+background: #ffffff;
+color: #000;
+}
+[data-theme="white"] .ant-layout-sider {
+background: #ffffff;
+}
+.ant-layout-content {
+background: #ffffff;
+color: #000000;
+}
+[data-theme="dark"] .ant-layout-content {
+background: #000000;
+}

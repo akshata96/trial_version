@@ -1,0 +1,47 @@
+.Cards {
+  /* padding: 30px; */
+  background: #fff;
+  max-height: 300px;
+  padding-bottom:100px;
+  align-content: center;    
+}
+.grpcard{
+  padding:30px;
+  background: #fff;
+}
+.CardBody {
+  /* padding: 30px; */
+  align-content: center;
+  background: #fff;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.cardBodyStyle {
+  height: 45px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: small;
+  max-height: 50px;
+  /* margin-bottom: 30px; */
+}
+
+h1{
+  text-align: left;
+}
+
+p
+{
+  text-align: left;
+  text-overflow: ellipsis;
+  justify-content: center ;
+  align-items: center;
+  font-size: small;
+  
+}

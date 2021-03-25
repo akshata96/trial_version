@@ -1,0 +1,16 @@
+.progress-bar {
+  
+    display: flex;
+    
+    align-content: center;
+}
+.progress-text {
+    width: 100vw;
+  height: 100vh;
+  }
+  .t{
+      text-align: center;
+      position: relative;
+      left: 20%;
+   
+  }

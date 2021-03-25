@@ -1,0 +1,17 @@
+
+.c_container{
+  margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    min-width: 25rem;
+    min-height: auto;
+    background-color: #FFFFFF; /* for the 1px in the center */
+    box-shadow: 0px 0px 15px 0px grey;
+
+}
+.component-head-name {
+  margin-top: 1.5rem;
+  margin-left: 8rem;
+  margin-top: 6rem;
+  font-weight: bold;
+}
